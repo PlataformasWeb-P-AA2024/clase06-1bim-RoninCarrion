@@ -6,6 +6,9 @@ from configuracion import engine
 Session = sessionmaker(bind=engine)
 session = Session()
 
+
+#En este ejercicio se va a subir información a una base de datos de tipo sqlite haciendo uso del orm sqlalchemy.
+
 # se crea un objeto de tipo
 # Saludo
 
